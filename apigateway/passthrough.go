@@ -1,8 +1,8 @@
 package apigateway
 
 import (
-	"github.com/epy0n0ff/go-incident/cloudfront"
-	"github.com/epy0n0ff/go-incident/plivo"
+	"github.com/incident-app-team-a/go-incident/cloudfront"
+	"github.com/incident-app-team-a/go-incident/plivo"
 )
 
 type Request struct {
