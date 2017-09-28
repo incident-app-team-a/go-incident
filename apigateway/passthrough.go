@@ -6,8 +6,8 @@ import (
 )
 
 type Request struct {
-	BodyJson string `json:"body-json"`
-	Params   Params `json:"params"`
+	BodyJson interface{} `json:"body-json"`
+	Params   Params      `json:"params"`
 }
 
 type Params struct {
